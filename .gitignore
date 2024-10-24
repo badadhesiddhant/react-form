@@ -1,0 +1,43 @@
+# Ignore AWS credentials
+aws_credentials.json
+
+# Node modules
+node_modules/
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# AWS credentials
+*.pem
+*.key
+*.p12
+.aws/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Miscellaneous
+*.bak
+*.swp
